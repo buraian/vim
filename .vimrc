@@ -1,3 +1,8 @@
+" Enable Mouse
+if has('mouse')
+  set mouse=a
+endif
+
 "-----------------------------
 " Vim Plug
 "-----------------------------
