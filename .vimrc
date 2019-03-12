@@ -17,6 +17,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'xuyuanp/nerdtree-git-plugin'
+Plug 'scrooloose/nerdcommenter'
 Plug 'rhowardiv/nginx-vim-syntax'
 Plug 'plasticboy/vim-markdown'
 
