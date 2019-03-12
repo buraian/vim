@@ -14,6 +14,7 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
+Plug 'editorconfig/editorconfig-vim'
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'xuyuanp/nerdtree-git-plugin'
@@ -61,7 +62,18 @@ let NERDTreeShowHidden=1
 let g:nerdtree_tabs_open_on_console_startup=1
 
 "-----------------------------
+" NERD Commenter
+" ----------------------------
+
+" Add spaces after comment delimiters by default
+let g:NERDSpaceDelims = 1
+
+" Allow commenting and inverting empty lines (useful when commenting a region)
+let g:NERDCommentEmptyLines = 1
+
+"-----------------------------
 " Vim Markdown
 "-----------------------------
 
 let g:vim_markdown_folding_disabled = 1
+
