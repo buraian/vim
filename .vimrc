@@ -17,6 +17,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'xuyuanp/nerdtree-git-plugin'
+Plug 'rhowardiv/nginx-vim-syntax'
+Plug 'plasticboy/vim-markdown'
 
 call plug#end()
 
@@ -57,3 +59,8 @@ let NERDTreeShowHidden=1
 " Open NERDTree on console vim startup. (When set to 2, open only if directory was given as startup argument).
 let g:nerdtree_tabs_open_on_console_startup=1
 
+"-----------------------------
+" Vim Markdown
+"-----------------------------
+
+let g:vim_markdown_folding_disabled = 1
