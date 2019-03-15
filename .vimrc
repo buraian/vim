@@ -19,6 +19,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'xuyuanp/nerdtree-git-plugin'
 Plug 'scrooloose/nerdcommenter'
+Plug 'terryma/vim-multiple-cursors'
 Plug 'rhowardiv/nginx-vim-syntax'
 Plug 'plasticboy/vim-markdown'
 
@@ -49,7 +50,7 @@ autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | endif
 
 " Map Ctrl+N to toggle NERDTree
-map <C-n> :NERDTreeToggle<CR>
+map <C-t> :NERDTreeToggle<CR>
 
 " Show hidden files
 let NERDTreeShowHidden=1
