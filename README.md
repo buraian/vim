@@ -1,6 +1,6 @@
 # Vim Shared Config
 
-![Vim](https://upload.wikimedia.org/wikipedia/commons/9/9f/Vimlogo.svg)
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Vimlogo.svg" height="200">
 
 ## Initial Setup
 
