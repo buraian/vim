@@ -4,8 +4,18 @@
 
 ## Initial Setup
 
+- [Clone Settings Repo](#clone-settings-repo)
+- [Create Sym Link](#create-sym-link)
+
+### Clone Settings Repo
+
 ```bash
 $ git clone https://github.com/buraian/vim.git ~/.config/vim
+```
+
+### Create Sym Link
+
+```bash
 $ ln -s ~/.config/vim/.vimrc ~/.vimrc
 ```
 
